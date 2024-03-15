@@ -4,7 +4,7 @@ public class Pyramid {
     private   Rectangle rect;
     private double height;
 
-    public Pyramid(String color,Rectangle rect,double height){                                     //constructer
+    public Pyramid(String color,Rectangle rect,double height){                                    
         this.color=color;
         this.rect=rect;
         this.height=height;
@@ -31,7 +31,7 @@ public class Pyramid {
 public class Rectangle {
     private double length;
     private double width;
-    public Rectangle(double length,double width){                                     //constructer
+    public Rectangle(double length,double width){                                    
         this.length=length;
         this.width=width;
     }
